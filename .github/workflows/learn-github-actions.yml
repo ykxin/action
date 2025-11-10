@@ -12,5 +12,3 @@ jobs:
           node-version: '14'
       - run: npm install -g bats
       - run: bats -v
-      - name: Cache
-        uses: actions/cache@v4.3.0
